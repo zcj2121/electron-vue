@@ -34,17 +34,17 @@ module.exports = {
     electronBuilder: {
       builderOptions: {
         appId: 'com.example.app',
-        productName: 'aDemo', // 项目名，也是生成的安装文件名，即aDemo.exe
+        productName: '测试商服', // 项目名，也是生成的安装文件名
         copyright: 'Copyright © 2019', // 版权信息
         // directories: {
         //   output: './dist'// 输出文件路径
         // },
         win: {
-          icon: './public/app.jpg',
+          icon: './public/app.png',
           target: ['zip', 'nsis']
         },
         mac: {
-          icon: './public/app.jpg',
+          icon: './public/app.png',
           target: ['zip', 'dmg']
         },
         nsis: {

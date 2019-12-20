@@ -27,7 +27,7 @@ function createWindow () {
       nodeIntegration: true
     },
     // eslint-disable-next-line no-undef
-    icon: `${__static}/app.ico`
+    icon: `${__static}/app.npg`
   })
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {

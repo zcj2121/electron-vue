@@ -18,7 +18,7 @@ if (ip_addr.indexOf('ycenc') != -1) {
 // 创建axios实例
 const service = axios.create({
   withCredentials: true,
-  baseURL: changeUrl, // api 的 base_url
+  baseURL: process.env.VUE_APP_URL , // api 的 base_url
   timeout: 150000, // 请求超时时间
   method: 'post',
   cache: false

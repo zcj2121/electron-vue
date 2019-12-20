@@ -24,6 +24,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    'no-use-v-if-with-v-for': 0,
     'func-style': 0,
     'no-alert': 0,//禁止使用alert confirm prompt
     'no-array-constructor': 2,//禁止使用数组构造器
